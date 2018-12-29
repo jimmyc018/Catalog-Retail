@@ -1,0 +1,220 @@
+.page-background {
+    background-color: FFFFFF;
+}
+
+body {
+    margin: 0;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin: 16px 0;
+  overflow: hidden;
+  background-color: #F6F6F7;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #888888 ;
+  font-size: 11px;
+  text-align: right;
+  margin: 7px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li.right {
+    float: right;
+    padding-right: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {
+      float: none;
+      text-align: right;
+  }
+  .CatalogInfo {
+    padding: 7% 0;
+  }
+  .catalogImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: auto;
+    height: auto;
+  }
+}   
+
+@media screen and (max-width: 700px) {
+    ul.topnav li.right, 
+    ul.topnav li {
+        float: none;
+        text-align: right;
+    }
+    .CatalogInfo {
+      padding: 7% 0;
+    }
+    .catalogImage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: auto;
+      height: auto;
+    }
+}   
+
+@media screen and (max-width: 400px) {
+    ul.topnav li.right, 
+    ul.topnav li {
+        float: none;
+        text-align: right;
+    }
+    .CatalogInfo {
+      padding: 7% 0;
+    }
+    .catalogImage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: auto;
+      height: auto;
+    }
+}   
+
+.catalogImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 62%;
+    height: auto;
+}
+
+.textContent {
+    font-size: 14px;
+}
+
+.catalogDescription {
+    font-size: 12.6px;
+    color: #888888;
+    line-height: 1.8;
+}
+
+.section {
+    padding: 20px 0;
+}
+
+.sizeSection {
+    color: #888888;
+    font-size: 12px;
+}
+
+.requriedSymbol {
+    color: #C90000;
+}
+
+.priceListing {
+    margin-top: -2%;
+    font-size: 14px;
+}
+
+.horizontalLine {
+    background-color: rgb(243, 243, 243);
+    opacity: 0.4;
+}
+
+.horizontalLine2 {
+    background-color: rgb(243, 243, 243);
+    margin-top: -2%;
+    opacity: 0.4;
+}
+
+.CatalogInfo {
+    padding-bottom: 2%;
+}
+
+.catalogTitle {
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin-bottom: 4%;
+
+}
+
+.sizeChart:link, .sizeChart:visited {
+    background-color: #FFFFFF;
+    color: #888888;
+    border: 1.2px solid #CCCCCC;
+    padding: 11px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+}
+
+.sizeChart2:link, .sizeChart2:visited {
+    background-color: #FFFFFF;
+    color: #888888;
+    border: 1.2px solid #CCCCCC;
+    padding: 11px 14.3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+}
+
+.sizeChart3:link, .sizeChart3:visited {
+    background-color: #FFFFFF;
+    color: #888888;
+    border: 1.2px solid #CCCCCC;
+    padding: 11px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+}
+
+.addCart:link, .addCart:visited {
+    background-color: #FFFFFF;
+    color: #222222;
+    border: 2px solid #222222;
+    padding: 6px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 4%;
+
+  }
+  
+.addCart:hover, .addCart:active {
+    background-color: black;
+    color: #FFFFFF;
+    transition-duration: 0.2s;
+}
+
+.sizeChart:focus, .sizeChart:after {
+    background-color: #FFFFFF;
+    border: 2px solid #222222;
+}
+
+.sizeChart2:focus, .sizeChart2:after {
+    background-color: #FFFFFF;
+    border: 2px solid #222222;
+}
+
+.sizeChart3:focus, .sizeChart3:after {
+    background-color: #FFFFFF;
+    border: 2px solid #222222;
+}
+
+#sizeID {
+    font-size: 10px;
+    color: #222222;
+}
+  
+

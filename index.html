@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link href="styling.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="javascript.js"></script>
+        <title>Clothing Retail Store</title>
+    </head>
+
+    <body class="page-background">
+        <ul class="topnav">
+            <li class="right"><a href="#" id="cart">My Cart ( 4 )</a></li>
+        </ul>
+
+        <div id="contentPage" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <img class="catalogImage" src="classic-tee.jpg">
+                    </div>
+                    <div class="col-md-5 textContent">
+                        <div class="CatalogInfo">
+                            <h4 class="catalogTitle">Classic Tee</h4>
+                            <hr class="horizontalLine">
+                            <b><p class="priceListing">$75.00</p></b>
+                            <hr class="horizontalLine2">
+                            <p class="catalogDescription">Dolar sit amet, consectetur adipiscing elit. Haec et tu ita posuisti, et verba vestra sunt.
+                                Quod autem ratione actum est, id officium appellamus dolor sit amet, consectetur adipiscing elit. Haec
+                                et tu ita posuisti, et verba vestra sunt. Quod autem ratione actum est, id officium appellamus
+                            </p>
+                        </div>
+                        <div>
+                            <p class="sizeSection"><b>SIZE</b><b class="requriedSymbol">*</b> <b id="sizeID"></b></p>
+                        </div>
+
+                        <div class="sizeSectionTable">
+                            <a href="#" class="sizeChart" onclick="displayResult()">S</a>
+                            <a href="#" class="sizeChart2" onclick="displayResult1()">M</a>
+                            <a href="#" class="sizeChart3" onclick="displayResult2()">L</a>
+                        </div>
+                        <a href="#" class="addCart"><b>ADD TO CART</b></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
